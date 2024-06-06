@@ -1,0 +1,42 @@
+img{
+    float: left;
+}
+footer{
+    float: right;
+}
+#div-1{
+    border: 1px solid;
+    float: left;
+    height: 800px;
+    width: 300px;
+}
+#div-2{
+    border: 1px solid;
+    float: right;
+    height: 800px;
+    width:300px;
+}
+div > img {
+    width: 100%;
+}
+#div-1:hover{
+background-color:rebeccapurple;
+}
+#div-2:hover{
+    background-color: brown;
+}
+#div-1:active{
+    background-color: aqua;
+}
+#div-2:active{
+    background-color: aquamarine;
+}
+footer{
+    clear:both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: 2px solid;
+}
+
